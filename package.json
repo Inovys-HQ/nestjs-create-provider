@@ -1,0 +1,17 @@
+{
+  "name": "@inovys/nestjs-create-provider",
+  "type": "module",
+  "version": "1.0.0-RC.1",
+  "main": "build/create-nest-provider.js",
+  "types": "build/create-nest-provider.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "*"
+  }
+}
